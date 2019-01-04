@@ -6,8 +6,10 @@
 
 
 body {
-    font-family: Arial, "微軟正黑體","Microsoft JhengHei", sans-serif,'Noto Sans TC',;
+/*    font-family: Arial, "微軟正黑體","Microsoft JhengHei", sans-serif,'Noto Sans TC',;*/
     background-color: black;
+    padding-left: 0px;
+    padding-right: 0px;
 }
 
 .g-word {
@@ -242,4 +244,12 @@ blockquote {
     margin-left:-15px;
     margin-right: -15px;
     padding-bottom: 0px;
+}
+
+#pic {
+    background-image: url(assets/IMG_9055.JPG);
+    background-position:fixed;
+    
+        height:100vh;
+    
 }

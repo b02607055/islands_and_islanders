@@ -11,7 +11,8 @@
     <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Rancho&effect=3d-float|3d">
     <link rel="stylesheet" type="text/css" href="index.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
-
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="dist/aos.css" />
 </head>
 
 <style>
@@ -37,7 +38,7 @@
                     <p>走出高雄火車站，溽暑蒸人，車站外滿是穿戴斗笠、袖套的中年女子高舉往「東港」、「墾丁」的牌子拉客。如果想要抵達小琉球，需要轉至東港碼頭搭船，大部分的人選擇車站不遠處的東港客運。</p>
                     <p>而實際上的東港客運，是一台一台的私家計程車，車行忙著拼湊旅客，擠滿便出發。</p>
                     <blockquote cite="http://www.worldwildlife.org/who/index.html">「一天好幾趟，小琉球很近啊，幾分鐘就到了，少年仔瓏馬就愛去。」司機說道。</blockquote>
-                        <p>有了高鐵，北高兩小時到達，再轉至東港頂多半小時，搭船到小琉球也不過幾分鐘，因此小琉球成為近年最受歡迎的觀光離島之一。</p>
+                    <p>有了高鐵，北高兩小時到達，再轉至東港頂多半小時，搭船到小琉球也不過幾分鐘，因此小琉球成為近年最受歡迎的觀光離島之一。</p>
 
 
                 </div>
@@ -125,12 +126,13 @@
         </div>
 
     </div>
-
-
-    <div id="div02" class="container-fluid" style="min-height: 1000px; background-color:#35495f;">
-        <div class="container=fluid" style="height:50px">
-        </div>
-        <div><img src="assets/snok.JPG" style="width:100%;height:100%"></div>
+    <!--
+    <div id="pic" class="container-fluid" style="min-height: 500px; background-color:#35495f;padding:0px">
+        <div><img src="assets/IMG_9055.JPG" style="width:100%;height:100%;margin-right:0px;position:fixed"></div>
+    </div>
+-->
+    <div id="div02" class="container-fluid" style="min-height: 1000px; background-color:#35495f;padding:0px">
+        <div><img src="assets/IMG_9055.JPG" style="width:100%;height:100%;margin-right:0px;"></div>
         <div class="container=fluid" style="height:50px">
         </div>
         <div class="g-word">
@@ -246,8 +248,7 @@
             <div class="row">
                 <div class="col-md-6"></div>
                 <div class="col-md-5">
-                    <p style="text-align: justify; line-height: 200%; font-size: 25px">當地業者也紛紛表示，觀光是島上大多數居民的生計來源，難以扭轉，同時觀光也不該事件罪惡的事，蔡正男表示，旅行畢竟是為了放鬆，遊客可能會覺得，「好像我來這邊是錯的，我應該不要來，才不會影響環境」。</p>
-                    <p style="text-align: justify; line-height: 200%; font-size: 25px">他認為應該是透過永續的方式經營觀光，讓更多人了解到環境問題。</p>
+                    <p style="text-align: justify; line-height: 200%; font-size: 25px;background-color: rgba(255,255,255,0.3);border-radius:20px;">當地業者也紛紛表示，觀光是島上大多數居民的生計來源，難以扭轉，同時觀光也不該事件罪惡的事，蔡正男表示，旅行畢竟是為了放鬆，遊客可能會覺得，「好像我來這邊是錯的，我應該不要來，才不會影響環境」。<br><br>他認為應該是透過永續的方式經營觀光，讓更多人了解到環境問題。</p>
                 </div>
                 <div class="col-md-1"></div>
             </div>
@@ -285,7 +286,11 @@
     <video id="video2" width="100%" preload="auto" autoplay="" controls="" loop="">
         <source src="assets/video/bgvid.mp4" type="video/mp4" />
     </video>
-
+    <!--if auto play, add vid on boat
+    <div id="pic" class="container-fluid" style="min-height: 500px; background-color:#35495f;padding:0px">
+        <div><img src="assets/img" style="width:100%;height:100%;margin-right:0px;position:fixed"></div>
+    </div>
+-->
     <!--
     <video autoplay loop poster="assets/poster.png" id="bgvid">
         <source src="assets/video/bgvid.mp4" type="video/mp4" />
@@ -294,19 +299,11 @@
 
 
     <div id="div06" class="container-fluid" style="height: 1475px; background-color: rgba(0, 0, 0, 0.5);">
-        <!--
-            <div class="col-12 col-md-7" style="left: 170px; padding-top: 20px; padding-bottom: 40px; font-family: verdana; font-size: 130%;font-weight: 500;background:#deeaee; opacity: 0.95;">
-                <p>第二段：根據聯合報2018年五月報導,交通部觀光局擬對綠島、蘭嶼、小琉球推行遊客總量管制。</p>
-                <p>此舉乃是期盼觀光發展能與生態保護進行平衡,此消息一出,各地聲浪不一,其中僅蘭嶼對這樣的政策有正面看法。</p>
 
-                <p>經濟發展與環境保護自始難兩全,為了解觀光產業對環境的實際衝擊,台大新聞所記者在離島觀光旺季登上綠島與小琉球兩島,實際潛入海中,一窺兩地海洋生態現況。</p>
-                <p>同時瞭解環境的破壞是否真的是觀光造成,有沒有其他原因讓離島海洋生態日益衰敗。</p>
-            </div>
-            <div class="col-6 col-md-5"></div>
--->
+        -->
         <div class="container=fluid" style="height:780px"></div>
         <div class="g-word3">
-            <div class="container=fluid" style="height:180px"></div>
+            <div class="container=fluid" style="height:155px"></div>
             <div class="row">
                 <div class="col-sm-2"></div>
                 <div class="col-sm-8" style="font-size: 130%;font-weight: 500;background-color:#35495f; opacity: 0.95;border-radius: 20px;padding:20px">
@@ -315,8 +312,8 @@
                     </p>
                     <blockquote cite="http://www.worldwildlife.org/who/index.html">「十年前這個時候，水溫差不多要降到26度，現在還在28.29度」，俞明宏指出和過去相比，今年八月綠島的水溫還是太高了。
                     </blockquote>
-                    
-                        <p>水溫太高是珊瑚的逆境因子，白化的珊瑚此時尚未死亡，但兩三星期內水溫不降下來，便難逃一死。</p>
+
+                    <p>水溫太高是珊瑚的逆境因子，白化的珊瑚此時尚未死亡，但兩三星期內水溫不降下來，便難逃一死。</p>
 
                 </div>
                 <div class="col-sm-2"></div>
@@ -326,7 +323,22 @@
     </div>
 
 
-    <div id="div07" class="container-fluid" style="height: 1475px; background-color:black;">
+    <div id="div07" class="container-fluid" style="height: 1550px; background-color:black;">
+        <div class="container=fluid" style="height:450px"></div>
+        <!--            <div class="g-word">-->
+        <div class="row">
+            <div class="col-sm-2"></div>
+            <div class="col-sm-8">
+
+
+                <p>2016年莫蘭蒂颱風狹帶超強的風雨襲擊臺灣，小琉球東南面的大福漁港正面迎擊強颱莫蘭蒂，17米的浪高重創深度15米內的海底。兩年過去了，重回當地，映入眼簾的依然是月球表面般的景象，僅有零星小株的枝狀珊瑚。</p>
+                <blockquote cite="http://www.worldwildlife.org/who/index.html">陳昭倫說:「小琉球很多地方被剷平並沒有恢復，颱風作用性很大，基本上珊瑚礁體結構改變，要再長回來其實是相當困難的事。」 </blockquote>
+                <p>他說可能得經過十年，才有新的珊瑚苗進來，而能不能黏合和沈積形成珊瑚礁，又是另一回事了。</p>
+
+            </div>
+            <div class="col-sm-2"></div>
+        </div>
+        <div class="container=fluid" style="height:50px"></div>
 
 
 
@@ -342,13 +354,54 @@
 
 
     <div class="container-fluid" style="background-color:black;height:100vh;">
+        <div class="container=fluid" style="height:100px"></div>
+        <!--            <div class="g-word">-->
+        <div class="row">
+            <div class="col-sm-2"></div>
+            <div class="col-sm-8">
+
+
+                <p>生態是時時變動的，有高峰就有低谷，重要的是從低谷是否能夠爬升回良好、適合孕育生物的場域。
+
+                </p>
+                <p>陳昭倫解釋，這種回覆能力稱作「韌性」，更詳細一點地講，生態系受到外力衝擊後，利用本身的條件吸收、轉化，回到衝擊之前的狀態。
+                </p>
+                <blockquote cite="http://www.worldwildlife.org/who/index.html">除了氣候變遷，陳昭倫指出珊瑚礁也同時面對過漁、棲地破壞及污染的問題。 </blockquote>
+                <p>
+                    四者之間又是緊密關聯，像是因為過漁而導致食藻魚類無法有效清除覆蓋在珊瑚礁上的藻類，進而影響珊瑚蟲重新生長。
+                </p>
+
+
+            </div>
+            <div class="col-sm-2"></div>
+        </div>
+        <div class="container=fluid" style="height:100px"></div>
+
+
 
     </div>
     <div id="div1" class="container-fluid innershadow1" style="background-color:black;height:200vh;position:relative;">
-        <img id="naruto1" data-top=10 data-top2=60 data-left=25 data-left2=35 data-width=30 data-width2=40 src="assets/turtle_scroll.png" class="dropshadow1" style="position:absolute;width:20%;top:15%;left:25%;filter:grayscale(.3) blur(0px);">
+        <img id="naruto1" data-top=5 data-top2=65 data-left=25 data-left2=35 data-width=30 data-width2=40 src="assets/turtle_scroll.png" class="dropshadow1" style="position:absolute;width:20%;top:15%;left:25%;filter:grayscale(.3) blur(0px);">
+        <div class="container=fluid" style="height:80vh"></div>
+        <div class="row">
+            <div class="col-sm-6"></div>
+            <div class="col-sm-5" style="text-align: justify; line-height: 200%;background-color: rgba(255,255,255,0.4);border-radius:20px;">
+
+                <br>
+                <p>小琉球與綠島都是離海小島，綠島船長蔡居福說，小琉球的海底比較平，魚容易被捕撈，蘇淮也說小琉球得天獨厚的氣候是生機也是殺機。它冬天吹東北風，南面可以去玩，夏天吹西南風，東北面可以玩，所以他是一個全年性都可以去造訪的島嶼。</p>
+                <br>
+                <p>沒有天然休養期的島，減少了自然生息養護的機會。</p>
+                <blockquote cite="http://www.worldwildlife.org/who/index.html">「遊客量不要那麼大就
+                    可以減少很多問題」，蘇淮笑著說，人的問題一解決，減少環境負載力，污染的問題也不會那麼嚴重。</blockquote>
+                <br>
+                <p> 但他也知道，問題越大就越難解決。</p>
+
+            </div>
+            <div class="col-sm-1"></div>
+        </div>
     </div>
     <div id="space1" class="container-fluid" style="background-color:rgba(0,0,0,0.5);min-height: 1800px"></div>
-    <div id="div2" class="container-fluid" style="background-color:black;height:100vh;"></div>
+    <!--    <div id="div2" class="container-fluid" style="background-color:black;height:100vh;"></div>-->
     <div class="container-fluid" style="background-color:darkgrey;min-height: 1800px"></div>
 
 
@@ -359,7 +412,7 @@
     </div>
 
 
-<!--    <div id="div5" class="container-fluid" style="min-height: 2000px; background-color: rgba(0, 0, 0, 0.8); color:white"></div>-->
+    <!--    <div id="div5" class="container-fluid" style="min-height: 2000px; background-color: rgba(0, 0, 0, 0.8); color:white"></div>-->
     <div id="role" class="container-fluid text-center" style="background:linear-gradient(black, #35495f);min-height:3000px;">
         <img src="assets/role_1/P6.png" class="img-fluid slideanimate" data-pos=20000 data-direction="fadeInUp" style="position:fixed;left:100px;top:-50px;width:80%">
         <img src="assets/role_1/P1-01.png" class="img-fluid slideanimate" data-pos=21000 data-direction="fadeInUp" style="position:fixed;left:100px;top:-50px;width:80%">
@@ -367,8 +420,14 @@
         <img src="assets/role_1/P3-01.png" class="img-fluid slideanimate" data-pos=23000 data-direction="fadeInDown" style="position:fixed;left:100px;top:-50px;width:80%">
         <img src="assets/role_1/P5-01.png" class="img-fluid slideanimate" data-pos=24000 data-direction="fadeInLeft" style="position:fixed;left:100px;top:-50px;width:80%">
         <div id="footer" class="container-fluid" style="height:600px;bottom: 0px;position:absolute;background-color: rgba(225,225,225,0)">
-            打字看看
-        
+            <!--            <input type="button" value="" onclick="location.href='https://b02607055.github.io/islands_and_islanders/article1.html'" style="background-color: rgba(0,0,0,0.5);border-radius:50%;border:2px blue none;width:80px;height;100px;padding-left:50px;bottom:350px;">-->
+            <!--            <button type="button" style="80px;height:80px;"><img src="assets/nan.png"></button>-->
+            <!--            <input type="button" onclick="https://b02607055.github.io/islands_and_islanders/article4.html" style="width:150px;height:40px;background-image:url(assets/monster.png);right:10px;bottom:10px" value="有背景圖片的按鈕">-->
+            <a href="https://b02607055.github.io/islands_and_islanders/article2.html" title=""><img src="assets/botton_white.png" width="22%" alt="蔡正男" border="0" style="position:absolute;top:70px;left:55px;opacity: 0.1"></a>
+            <a href="https://b02607055.github.io/islands_and_islanders/article1.html" title=""><img src="assets/botton_white.png" width="24%" alt="蔡居福" border="0" style="position:absolute;top:198px;right:326px;opacity: 0.1"></a>
+            <a href="https://b02607055.github.io/islands_and_islanders/article3.html" title=""><img src="assets/botton_white.png" width="23%" alt="俞明宏" border="0" style="position:absolute;top:13px;right:301px;opacity: 0.1"></a>
+            <a href="https://b02607055.github.io/islands_and_islanders/article4.html" title=""><img src="assets/botton_white.png" width="23%" alt="侯政廉" border="0" style="position:absolute;top:179px;right:140px;opacity: 0.1"></a>
+
         </div>
     </div>
 
@@ -380,6 +439,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+    <script src="dist/aos.js"></script>
     <script>
         $(function() {
             $(window).scroll(function() {
@@ -433,7 +493,7 @@
                 var scrolled = $(window).scrollTop();
                 var div1_scrolled = scrolled - div1_pos;
                 var div1h = $("#div1").height();
-                if (div1_scrolled > 0 && scrolled < space1_pos - winh) {
+                if (div1_scrolled > 20 && scrolled < space1_pos - winh) {
 
                     $("#naruto1").css('left', (($("#naruto1").data('left2') - $("#naruto1").data('left')) * div1_scrolled / winh + $("#naruto1").data('left')) + '%');
                     $("#naruto1").css('top', (($("#naruto1").data('top2') - $("#naruto1").data('top')) * div1_scrolled / winh + $("#naruto1").data('top')) + '%');
@@ -443,6 +503,19 @@
             });
         });
     </script>
+
+    <script>
+        AOS.init({
+            easing: 'ease-in-out-sine'
+        });
+    </script>
+
+
+
+
+
+
+
 
 
 
