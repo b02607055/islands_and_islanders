@@ -32,7 +32,19 @@ h {
     padding-right: 50px;
     color:#6DD0CD;
     font-size: 25px;
+ 
 }
+
+blockquote { 
+  display: block;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  margin-left: 40px;
+  margin-right: 40px;
+    color:#6DD0CD;
+    font-size: 25px;
+}
+
 
 
 
