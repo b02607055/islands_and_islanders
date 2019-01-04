@@ -1,0 +1,78 @@
+@import url(https: //fonts.googleapis.com/earlyaccess/notosanstc.css);
+
+* {
+    font-family: 'Noto Sans TC';
+}
+
+body {
+    font-family: 'Noto Sans TC', '微軟正黑體', sans-serif;
+}
+
+section {
+    height: 100vh;
+    color: dimgray;
+
+}
+
+.g-img1 {
+    background-image: url(assets/article4/title_combine.png);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+    line-height: 100vh;
+    text-align: center;
+    font-size: 20vh;
+    text-decoration-color: white;
+    font-family: sans-serif
+}
+
+.g-img2 {
+    background-image: url(assets/article4/2.JPG);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+}
+
+.g-img3 {
+    background-image: url(assets/article4/4.JPG);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+}
+
+.g-img4 {
+    background-image: url(assets/article4/IMG_9445.JPG);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+}
+
+.g-img5 {
+    background-image: url(assets/article4/5.JPG);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+}
+
+.g-word {
+
+    font-size: 2.5vh;
+    text-align: justify;
+    text-justify: inter-ideograph;
+    line-height: 250%;
+    width: 100%;
+    height: 70vh;
+    background-color: rgba(255, 255, 255, 0.2);
+
+}
+
+p {
+    padding: 12px;
+    color: dimgray;
+}
+
+
+
+.col-sm-8 {
+    margin-top: 50px;
+}

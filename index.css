@@ -1,0 +1,233 @@
+@import url(https: //fonts.googleapis.com/earlyaccess/notosanstc.css);
+
+* {
+    font-family: 'Noto Sans TC';
+}
+
+
+body {
+    font-family: Arial, "微軟正黑體","Microsoft JhengHei", sans-serif,'Noto Sans TC',;
+    background-color: black;
+}
+
+.g-word {
+    
+    text-align: justify;
+    text-justify:inter-ideograph;
+    line-height: 250%;
+    width:100%;
+    min-height: 50vh;
+    
+}
+
+p {
+    padding:10px;
+    color:white;
+    font-size: 20px;
+}
+
+h {
+    padding:10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    color:#6DD0CD;
+    font-size: 25px;
+}
+
+
+
+#map {
+    background-image: url("assets/map-mini.png");
+    top: -20px;
+    min-height: 100px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+
+
+
+
+
+
+
+.col-12 {
+    border-radius: 20px;
+}
+
+#turtle01 {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    position: fixed;
+    z-index: -1;
+    left: -10%;
+    background: url(assets/swim-3.png) right 90% no-repeat;
+}
+
+
+
+
+
+/*.video {*/
+/*    min-width: 100%;*/
+/*    min-height: 100%;*/
+/*    z-index: -1;*/
+/*    position: absolute;*/
+/*}*/
+
+
+
+.slideanimate,
+.slideanimated {
+    visibility: hidden;
+}
+
+.slide {
+    visibility: visible;
+}
+
+#role {
+    /*    background-image: url(assets/role_1/P6.png);*/
+    position: absolute;
+}
+
+
+
+
+
+
+
+#video {
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
+    position: fixed;
+    margin: 0px;
+    padding: 0px;
+
+}
+
+.fixed {
+    position: fixed;
+}
+
+
+
+
+#footer {
+    height:100px;
+    background-color: red;
+  color: white;
+  text-align: center;
+}
+
+#div01 {
+    
+}
+
+
+
+#div03 {
+    width: inherit;
+}
+
+
+
+#video2 {
+    z-index: 3;
+}
+
+.g-img1 {
+   background-image: url(assets/udnexcuseme.jpeg);
+    background-attachment: absolute;
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+
+}
+
+
+.col-md-4 {
+    
+}
+
+.g-img2 {
+    background-image: url(assets/snorkeling.JPG);
+    background-attachment: absolute;
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+}
+
+
+
+.g-word2 {
+    text-align: justify;
+    text-justify:inter-ideograph;
+    line-height: 250%;
+    width:100%;
+    min-height: 50vh;
+}
+
+#div05 {
+    background-image: url("assets/garbageonsend.png");
+    min-height: 100px;
+    background-attachment: fixed;
+    background-position:0px 0px 0px 0px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    
+    
+}
+
+#div06 {
+    background-image: url("assets/P8030517%20copy.JPG");
+    min-height: 100px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-position:0px 0px 0px 0px;
+    background-size: 100%;
+}
+
+#div1 {
+    background-image: url("assets/P8030524%20copy.JPG");
+            background-attachment: fixed;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+}
+
+#div2 {
+     background-image: url("assets/P8030517%20copy.JPG");
+            background-attachment: fixed;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+}
+
+/*video#bgvid {*/
+/*    position: fixed; right: 0; bottom: 0;*/
+
+/*
+  min-width: 100%; height: 100%;
+
+  width: auto; height: auto; z-index: -100;
+
+  background: url(assets/poster.png) no-repeat;
+
+  background-size: cover; 
+
+}
+*/
+
+.g-word3 {
+    background-color: rgba(255,255,255,0.7);
+    min-height:700px;
+    margin-left:-15px;
+    margin-right: -15px;
+    padding-bottom: 0px;
+}
