@@ -26,14 +26,15 @@ p {
     padding:10px;
     color:white;
     font-size: 20px;
+     line-height: 200%;
+    
 }
 
 h {
     padding:10px;
-    padding-left: 50px;
-    padding-right: 50px;
-    color:#6DD0CD;
-    font-size: 25px;
+    color:white;
+    font-size: 35px;
+    font-weight: bold;
  
 }
 
@@ -95,7 +96,8 @@ blockquote {
 
 
 .slideanimate,
-.slideanimated {
+.slideanimated,
+.slideanimate_fadein {
     visibility: hidden;
 }
 
@@ -135,7 +137,7 @@ blockquote {
     height:100px;
     background-color: red;
   color: white;
-  text-align: center;
+
 }
 
 #div01 {
@@ -252,4 +254,19 @@ blockquote {
     
         height:100vh;
     
+}
+
+#div07 {
+    background-image: url("assets/P8010332.JPG");
+    min-height: 100px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-position:0px 0px 0px 0px;
+    background-size: 100%;
+}
+
+
+.slideanimate_fadein {
+    animation-duration:5s;
 }
