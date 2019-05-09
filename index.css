@@ -1,12 +1,14 @@
 @import url(https: //fonts.googleapis.com/earlyaccess/notosanstc.css);
 
+/*
 * {
     font-family: 'Noto Sans TC';
 }
+*/
 
 
 body {
-/*    font-family: Arial, "微軟正黑體","Microsoft JhengHei", sans-serif,'Noto Sans TC',;*/
+    font-family: Arial, "微軟正黑體","Microsoft JhengHei", sans-serif,'Noto Sans TC',;
     background-color: black;
     padding-left: 0px;
     padding-right: 0px;
@@ -154,6 +156,7 @@ blockquote {
 
 #video2 {
     z-index: 3;
+    display: none;
 }
 
 .g-img1 {
