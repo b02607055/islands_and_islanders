@@ -19,7 +19,7 @@
     }
 
 body {
-    background-color: #235078;
+        background-color:#35495f;
     padding-left: 0px;
     padding-right: 0px;
 }
@@ -30,6 +30,16 @@ p {
     font-size: 20px;
      line-height: 200%;
     
+}
+blockquote { 
+    text-align:center;
+  display: block;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  margin-left: 40px;
+  margin-right: 40px;
+    color:#6DD0CD;
+    font-size: 25px;
 }
     footer p{margin:0}
     .content{
@@ -50,8 +60,8 @@ p {
         padding:2.5em 0;
     }
     footer{
+    background-color: #235078;
         text-align:center;
-        background-color:#35495f;
         border-top:solid white;
         border-width:thin;
     }
@@ -65,12 +75,17 @@ p {
         border-top-left-radius: 0.3rem;
         border-top-right-radius: 0.3rem;
     }
+    .modal-body{
+        border-top-left-radius: 0.3rem;
+        border-top-right-radius: 0.3rem;
+        padding: 0;
+    }
     .modal-body img{
         width:100%;
         padding:0 5em;
     }
     .modal-body p{
-        padding:0.5em 2em;
+        padding:.5em 2.8em;
     }
     .carousel-item img, .carousel-item video{
         padding:0 12.5em;
@@ -82,8 +97,21 @@ p {
         color: white;
     }
     .slides{
-        padding: 0 5em;
+        padding: 5em 5em;
     }
+    .modal-bg{
+        background-attachment: fixed;
+        background-size: 1140px 760px;
+        background-position: center center;
+        background-repeat: no-repeat;
+        height:380px;
+    }
+    .modal-header{
+        border-top-left-radius: 0.3rem;
+        border-top-right-radius: 0.3rem;
+        height:760px;
+    }
+}
 </style>
 
 <body>
@@ -92,13 +120,14 @@ p {
 <div class="modal fade" id="modal1" tabindex="-1" role="dialog" aria-labelledby="modalLabel1" aria-hidden="true">
   <div class="modal-dialog modal-xl" role="document">
     <div class="modal-content">
-      <div class="modal-header">
+      <!--div class="modal-header">
         <img width="100%" src="assets/head1.jpg">
-        <!---button type="button" class="close" data-dismiss="modal" aria-label="Close">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
-        </button--->
-      </div>
+        </button>
+      </div--->
       <div class="modal-body">
+        <div class="modal-bg modal-header" style="background-image: url(assets/head1.jpg)"></div>
         <center><p class="author">文/許家瑜</p></center>
         <p>堅信是天在養人，需要魚的時候，他感謝老天賜給綠島豐富的漁源，得以養家糊口；當人變得貪婪，他當起守護者，避免綠島的富饒只能回首，無法回頭。</p>
         <p>蔡居福，綠島人，生於民國35年。十四歲展開討海人生，那時使用「落緄」的方式釣炸彈魚，漁獲非常豐富。當兵後，短暫到台北工廠工作，因為無法習慣都市生活，跑到高雄登上遠洋漁業的漁船，曾經到新幾內亞三個多月，最後回到綠島定居。</p>
@@ -107,15 +136,12 @@ p {
         <p>後來，底拖網、三層網的漁船來到綠島，綿延數公里的漁網不僅把小魚也抓起來，甲殼類的動物也難逃殺機，甚至珊瑚也開始出現在市場上。</p>
         <p>「我就叫阿兵哥去擋！那時候都是我一個人在管，給他們拿走就沒有了！」人家會怕你嗎？「怕我？欲相拍咧！晚上還會打電話來恐嚇！」潛水四十多年了，海底的寶物他如數家珍。也因為了解，明白有些物種一但消失，便是永不再見。</p>
         <p>中研院海洋學者鄭明修從民國七十九年開始到綠島做研究，和蔡居福熟識三十多年，無論是研究前輩或是後進，大家進到綠島都是搭蔡居福的船出海。「這就是從抓珊瑚礁魚類到做保育的！」 鄭明修介紹起蔡居福，笑稱他是因為交了一群保育好朋友才有如此轉變，但也點明「他這個人比較會接受新知」，因此開始明白除了市場價值外，這片海洋擁有的是更珍貴的寶藏。</p>
-
-        <img width="100%" src="assets/1-1.jpg">
-        <p class="caption">蔡居福結識中研院海洋學者鄭明修，兩人相識三十餘年，鄭明修影響了蔡居福對海洋的理念。（攝影/董容慈）</p>
-
+        <div class="bg0"></div>
+        <div class="modal-bg" style="background-image: url(assets/1-1.jpg)"></div>
         <p>鄭明修也講起為何大家會稱蔡居福為「海龍王」，因為開始潛水時潛水行業並不興盛，蔡居福往往都是獨自開著船，簡單將船固定好，便消失在海平面上。不止一次，他做完安全停留上升後，發現西南氣流帶走了漁船！命大的他竟然順著流向追回了船。過去下水打漁時，也曾被魚槍打到，他竟還能開船回來停好，自行就醫。</p>
         <p>蔡居福話鋒一轉，馬上提起家門外公館港迫切需蓋淨水池，否則危害魚群也殃及珊瑚礁。走在第一線的學者與與海為伍的老海人，心中對於綠島都有著深深的感情。</p>
 
-        <img width="100%" src="assets/1-2.jpg">
-        <p class="caption">蔡居福向記者炫耀他最新買的藍牙喇叭，他說這樣在等待潛客上船時，就可以聽他最愛的台語歌。（攝影/董容慈）</p>
+        <div class="modal-bg" style="background-image: url(assets/1-2.jpg)"></div>
 
         <p>坐在千洋號上層，蔡居福打開藍牙喇叭，等待潛水客探索美麗海洋的時間，他就這樣在船上聽著喜歡的歌，隨著船隻晃呀晃。儘管船潛結束上岸的年輕人總虧他的音樂老派。但如同小小收音機唱著江蕙的惜別的海岸「孤單來到昔日的海岸　景致猶原也無改變……」老海人擁有半世紀的碧海藍天，永續的新觀念從心扎根。曾經義無反顧地躍入大海，如今也義無反顧地守候著它，為的是不讓昔日海岸再有變卦。</p>
       </div>
@@ -129,27 +155,26 @@ p {
 <div class="modal fade" id="modal2" tabindex="-1" role="dialog" aria-labelledby="modalLabel2" aria-hidden="true">
   <div class="modal-dialog modal-xl" role="document">
     <div class="modal-content">
-      <div class="modal-header">
+      <!---div class="modal-header">
         <img width="100%" src="assets/head2.jpg">
-        <!---button type="button" class="close" data-dismiss="modal" aria-label="Close">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
-        </button--->
-      </div>
+        </button>
+      </div--->
       <div class="modal-body">
+        <div class="modal-bg modal-header" style="background-image: url(assets/head2.jpg)"></div>
         <center><p class="author">文/董容慈</p></center>
         <p>蔡正男的生態旅店外表簡樸，白色的外牆搭上黑色招牌。身處民宿林立，外觀爭奇鬥豔的小琉球街道上，一不留神便會錯過。「我給設計師的概念是：讓客人騎過頭。這代表它已經融入這塊土地，你不會注意到。我不是在賣一個建築，我是想把這裡的文化給旅客知道。」蔡正男說道。</p>
         <p>十年前蔡正男回到小琉球，像他這樣的年輕人，在小琉球是少數。「小琉球只有到國中，國中畢業大家都要『出國』唸書，之後回來的人就少了。」蔡正男回到小琉球，全因不想「忘本」。蔡正男常對孩子們說：「你爸是小琉球人，你們也是。」但事實上自幼住在高雄的孩子們對小琉球一無所知。「以前住高雄，到處都是百貨公司，誘惑的東西很多，加上希望孩子的童年有長輩陪伴。」蔡正男和妻子毅然放棄高雄的工作返鄉打拼。</p>
         <p>如多數「回琉」青年，蔡正男一開始與朋友合資開民宿，後來又改做餐飲、文創。除了工作外，蔡正男幾乎天天往潮間帶跑「我很喜歡生態，那時候幾乎都泡在海邊觀察生態。」在與潮間帶生活的期間，蔡正男漸漸發覺人類活動與生態之間的相互影響，因此四、五年前，蔡正男開始規劃這間生態環保旅店。</p>
 
-        <img width="100%" src="assets/2-1.jpg">
-        <p class="caption">蔡正男返鄉開設環保旅店，希望能推動環保永續的旅遊方式。（攝影/董容慈）</p>
+        <div class="modal-bg" style="background-image: url(assets/2-1.jpg)"></div>
 
         <p>環保對生態有益是亙古不變的定律，但蔡正男認為「環境問題是很嚴肅的，旅行畢竟是為了放鬆，不是為了來這邊聽你講課，好像我來這邊是錯的，我應該不要來，才不會影響環境。」因此蔡正男希望透過生態觀察、環保永續的方式，讓更多人了解到環境問題，把這民宿定位在「生態旅遊」旅店。</p>
         <p>大眾對「環保旅店」的印象通常是不提供一次性盥洗用具，自備毛巾、牙刷等，加上符合政府規定的建材、排水系統。但蔡正男認為這些只是基本，他更希望從小琉球旅遊最常見的套裝行程做改善，減少環境壓力。</p>
         <p>蔡正男的環保旅店主打三天兩夜行程，其中其他民宿業者常見的「浮潛、潮間帶、夜遊」一條龍行程，蔡正男改用「點餐方式」有浮潛就沒有潮間帶，有潮間帶就沒有浮潛，「我們的旅店最多住滿16個人，如果只有八個人，我就減低八個人的踩踏壓力」。在潮間帶，蔡正男不帶擴音器，因為在他面前的遊客絕對不超過兩個半圓。遊客不用墊腳尖才看得到導覽員手中生態箱的生物，導覽更加精緻。</p>
 
-        <img width="100%" src="assets/2-2.jpg">
-        <p class=caption>蔡正男設計另類的小琉球地圖，讓觀光客開發有別機車路線以外的觀光方式。（攝影/董容慈）</p>
+        <div class="modal-bg" style="background-image: url(assets/2-2.jpg)"></div>
 
         <p>面對近年遊客爆量的小琉球觀光，蔡正男說：「未來的小琉球會更危險，因為他可能就是商業的，完全不知道自己的文化是什麼，一直推生態、推觀光，那就位很快速沒落。」蔡正男除了經營環保旅店，更投入校園教育、將文化帶進校園，期許更多的小琉球人能以永續經營的理念守護自己的家鄉。「十年前禁止漁網，十年後很多海龜，但是下一個十年的小琉球呢？20、30、50年後的小琉球又要做什麼？」蔡正男還在努力的道路上，停止不懈。</p>
       </div>
@@ -163,33 +188,31 @@ p {
 <div class="modal fade" id="modal3" tabindex="-1" role="dialog" aria-labelledby="modalLabel3" aria-hidden="true">
   <div class="modal-dialog modal-xl" role="document">
     <div class="modal-content">
-      <div class="modal-header">
+      <!---div class="modal-header">
         <img width="100%" src="assets/head3.jpg">
-        <!---button type="button" class="close" data-dismiss="modal" aria-label="Close">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
-        </button--->
-      </div>
+        </button>
+      </div--->
       <div class="modal-body">
+        <div class="modal-bg modal-header" style="background-image: url(assets/head3.jpg)"></div>
         <center><p class="author">文/許家瑜</p></center>
         <p>「最後一顆海膽被抓回去吃了，我們知道潮間帶沒有東西了。」侯政廉說起保育，語帶惋惜，想不透為何總在物種存亡危急之際，人才意識到保育問題，「綠島人不知道現在還有的這些東西都是他們僅存的寶貝」。</p>
         <p>侯政廉長於嘉義，22歲第一次到訪綠島後就此著迷，如候鳥南遷，每年一定回綠島一次。大約在十年前，侯政廉想要找一個自己喜歡的地方定居，從此認定綠島是故鄉。他回想初到綠島，「那時候綠島好乾淨、好漂亮，它的海好讓人……」但話鋒一轉，「但你知道，觀光客越多，污染就越多，包括帶不走的那些生活廢水。」</p>
         <p>在定居在綠島前，侯政廉就很喜歡潛水，但25年前的台灣還沒有什麼生態概念，「我們都覺得大海就是我們的電冰箱」，因此他打魚，甚至和潛水教練以漁獲的大小、多寡來相互較勁。</p>
 
-        <img width="100%" src="assets/3-1.jpg">
-        <p class="caption">一早十點的採訪，侯政廉已經完成一次潛水，正在清理裝備。（攝影/董容慈）</p>
+        <div class="modal-bg" style="background-image: url(assets/3-1.jpg)"></div>
 
         <p>現在的侯政廉，最廣為人知的事除了是熱愛潛水的怪獸教練，更是保護陸蟹的潛水教練！每年五到八月，母椰子蟹會順著天性，從陸地移往海邊「洗卵（釋卵）」。三年前熱愛跑馬拉松的侯政廉與好友練跑時，注意到地上東一塊西一塊的「檳榔汁」，仔細一看才驚訝地發現那竟是一隻隻螃蟹屍體。更令人悲傷的是每隻螃蟹都是「八百壯士」--腹部一團團褐色原來是上百個新生命。當時綠島耆老林豋榮觀察綠島路殺陸蟹的時感慨的告訴他，「天敵都殺不了這麼多（陸蟹）」！</p>
         <p>「人類怎能如此！」偶然一個保護陸蟹的想法浮現在侯政廉心中，隔天他就立起了告示牌，在馬路中間指揮交通，將路權還給螃蟹，讓他們回到孵育下一代的海洋。一邊經營怪獸民宿的他，有時會邀請房客一起去顧陸蟹，結束後總是聽到大家熱切討論著這新奇的體驗，「好像我又將一個種子變成了幼苗」。說著說著他又感性了起來，笑著說自己是傻瓜，即使時常號召不到人，保護陸蟹的行動也無間斷地來到第三年。</p>
 
-        <img width="100%" src="assets/3-2.jpg">
-        <p class="caption">侯政廉不只是學員眼中的怪獸教練，更是守護綠島陸蟹的功臣。（攝影/董容慈）</p>
+        <div class="modal-bg" style="background-image: url(assets/3-2.jpg)"></div>
 
         <p>但環境破壞總是來得猝不及防，2017年，綠島海域的龍王鯛被當地民宿業者獵殺。龍王鯛早期為觀賞魚類，因捕撈過度，目前受到《瀕危野生動植物種國際貿易公約》保護，台灣也在2014年將此魚種列入保育類野生動物，嚴禁捕殺。當時綠島居民群情憤慨，激動撻伐獵殺龍王鯛的業者。</p>
         <p>對許多人而言，只是死了一隻龍王鯛，但對於熱愛海洋生態的人而言，那種痛心是無可比擬的。侯政廉心繫海洋保育，面對這樣的狀況但卻對兇手伸出援手，「如果可以少一個惡魔，多一個菩薩，那我願意承擔其他人的不諒解」，他輔導那位釣客將捕魚技術轉型，希望未來少一個獵手，多一個保育者。</p>
         <p>說起綠島當前的潛水市場，他認為年輕一輩尚未從商業行為中騰出手腳關心環境保育。而遊客越來越多，對於總量管制，他期望管制可以間接淘汰不適合的業者。至於潛水生意，他雖也擔心，但更希望能透過深度旅遊的方式，好好導覽綠島歷史、詳細解說海洋知識留住客人，讓觀光永續發展。</p>
 
-        <img width="100%" src="assets/3-3.jpg">
-        <p class="caption">牆上佈滿遊客寄給侯政廉的明信片，侯政廉的深度旅遊，讓深深影響著遊客之於海洋的態度。（攝影/董容慈）</p>
+        <div class="modal-bg" style="background-image: url(assets/3-3.jpg)"></div>
 
         <p>侯政廉為了環境，默默埋下許多種子，舉凡海洋環境、陸蟹保育、綠島的人文，都在潛移默化中感染其他人。怪獸民宿的牆上密密麻麻貼滿了明信片，乘載著每個綠島過客的熱情，再次飄揚過海而來。「你應該看五十年後的台灣需要什麼，你現在來做！」侯政廉的眼光放得很遠，也期待這種眼光可以影響綠島未來的二十年，甚至更久。</p>
       </div>
@@ -203,13 +226,14 @@ p {
 <div class="modal fade" id="modal4" tabindex="-1" role="dialog" aria-labelledby="modalLabel4" aria-hidden="true">
   <div class="modal-dialog modal-xl" role="document">
     <div class="modal-content">
-      <div class="modal-header">
+      <!---div class="modal-header">
         <img width="100%" src="assets/head4.jpg">
-        <!---button type="button" class="close" data-dismiss="modal" aria-label="Close">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
-        </button--->
-      </div>
+        </button>
+      </div--->
       <div class="modal-body">
+        <div class="modal-bg modal-header" style="background-image: url(assets/head4.jpg)"></div>
         <center><p class="author">文/董容慈</p></center>
         <p>「我把綠島當作一個自然教室，一旦保存好，未來的人在水裡面，就像看書一樣。」出生基隆的俞明宏在綠島一待就是18年，他只要一背上氣瓶，，這裡的海就變成他的內太空，徜徉在藍色世界探索、保育生命。</p>
         <p>民國89年，俞明宏來到綠島，六年後他開了第一家潛店，開始教潛水、帶客人體驗海底世界。他的初衷很簡單，就是讓更多人知道海洋的美好，進而親近而知保護。但這樣的理念一開始並不存在俞明宏的思維。</p>
@@ -217,18 +241,15 @@ p {
         <p>「我不揹裝備打魚、背裝備也打魚。魚槍、魚叉我都用，整個基隆沿岸、東北角我都打，一路從金山萬里打到貢寮。」俞明宏說著這些話的同時，配上他身後各種魚類圖鑑、海洋保育標語，著實諷刺。被問及為何轉了大彎開始從事海洋保育，俞明宏嚴肅說道：「我打到自己。」在一次打魚時，俞明宏旋轉手中的魚叉，不小心手一滑，尖端的倒刺直接插進手中。「我把肉割開才有辦法把刺拔出來，那一次我覺得原來魚也是那麼痛苦，那我還是停止殺戮吧。」</p>
         <p>從海洋獵手變成生態捕手，俞明宏的轉變是用切身之痛交換來的。18年前落腳綠島，從當時的六間潛店到現在有立案的至少35家，俞明宏認為這是個好現象，因為越來越多人願意親近海洋，但前提是不只是親近，更應該對海洋有基礎認知，這也是俞明宏一直以來的堅持。</p>
 
-        <img width="100%" src="assets/4-1.jpg">
-        <p class="caption">俞明宏鑽研各種魚類圖鑑，希望有朝一日能完整紀錄台灣海水魚。（攝影/董容慈）</p>
+        <div class="modal-bg" style="background-image: url(assets/4-1.jpg)"></div>
 
         <p>「只要是我這邊教出來的學生，他們要有基本物種認知的能力。」俞明宏的堅持不是沒有原因，潛水客多，相對的會造成環境負擔。在水下能夠辨認物種，並知道如何和物種保持距離、彼此尊重變成了重要課題。也因此，多年前俞明宏開始收集綠島海底生物圖鑑，也買了許多國內外書籍鑽研，「各種魚類小時候、長大後、顏色、樣貌都不一樣，包含清醒跟睡著時都有不同樣貌，我最大的願望是出一本魚類不同階段的圖鑑，留下來給大家看。」</p>
 
-        <img width="100%" src="assets/4-2.jpg">
-        <p class="caption">俞明宏的書架上陳列各種語言的魚類圖鑑，顯現出他對海底世界的熱愛。（攝影/董容慈）</p>
+        <div class="modal-bg" style="background-image: url(assets/4-2.jpg)"></div>
 
         <p>在綠島待了近二十年，對生態變遷，俞明宏也有很大的感嘆。「十年前，這時候（107年8月）的水溫要降到26度，但現在還在28、29度。」無法抵擋的氣候變遷，是綠島海底生態的大浩劫。水溫一年比一年高，俞明宏設了一個海洋溫度計，即時的偵測，放在網路上，希望喚起大家對海洋溫度上升的關注。「我們規劃了一年，現在放上去半年多，但一直受到湧浪的影響，我們還在籌錢研發。」俞明宏的不計代價，源自於對海洋滿滿的愛。</p>
 
-        <img width="100%" src="assets/4-3.jpg">
-        <p class="caption">俞明宏自製海洋溫度計紀錄海溫，希望喚起大家對海洋溫度上升的關注。（攝影/董容慈）</p>
+        <div class="modal-bg" style="background-image: url(assets/4-3.jpg)"></div>
 
         <p>「對這個地方我是樂觀的，我要的是精緻的海洋。」持續關注海洋溫度、定期號招淨灘活動，編撰台灣海洋魚類圖鑑的進度也從未停歇，俞明宏以行動守護綠島生態。</p>
 
@@ -260,12 +281,12 @@ p {
 
     <div class="image" style="position:relative" data-aos="fade-up">
         <img width="100%" src="assets/0.jpg">
-        <p align="right" class="corner">「一天發車好幾趟，小琉球很近啊，幾分鐘就到了，少年仔瓏馬就愛去。」<br>
-「不用管船票上的時間，我們都是機動加班，有船就可以上。」</p>
     </div>
 
     <div class="content">
         <h1>交通易達 觀光人數創新高</h1>
+        <blockquote>「一天發車好幾趟，小琉球很近啊，幾分鐘就到了，少年仔瓏馬就愛去。」<br>
+「不用管船票上的時間，我們都是機動加班，有船就可以上。」</blockquote>
         <p>走出高雄火車站，溽暑蒸人，車站外穿戴斗笠、袖套的中年女子高舉往「東港」、「墾丁」的牌子拉客。如果想要抵達小琉球，需要轉至東港碼頭搭船，大部分的人選擇車站不遠處的東港客運。</p>
         <p>而實際上的東港客運，是一台一台的私家計程車，車行忙著拼湊旅客，擠滿便出發。有了高鐵，北高兩小時到達，再轉至東港頂多半小時，搭船到小琉球也不過幾分鐘，因此小琉球成為近年最受歡迎的觀光離島之一。</p>
         <p>正午時分，東琉線外排隊人潮綿延數百公尺，天氣好時，無限制加班的船隻，將一批一批的遊客送到積僅6.8平方公里的小琉球。根據大鵬灣國家風景區統計，2018年7月的小琉球觀光人次高達七萬四千多人次，較去年同期多了近兩萬人。</p>
@@ -285,27 +306,22 @@ p {
         <p>民眾到小琉球或綠島，多數是想一窺海洋奧秘。因此當地業者通常採取包套行程，三天兩夜包船票、住宿、浮潛、潮間帶導覽還有夜遊。而就像母雞帶小雞，島上最常見的風景是一群穿著防寒衣的遊客由業者帶領，騎機車穿梭在島上，尋找適合的下水點。</p>
         
         <center><img width="60%" src="assets/2.jpg" alt="9159"></center>
-        <p></p>
+        <p class="caption">在小琉球著名景點花瓶岩岸邊，隨處可見人們遺留的垃圾（攝影 / 董容慈）</p>
 
         <p>才剛過午餐時間，小琉球花瓶岩附近的海面上，就有近20組的浮潛客。同一組浮潛客抓著業者提供的泳圈，形成一條隊伍，約是12人。因此同一時刻的海面上，約120個人在浮潛。</p>
         <p>為了解浮潛行程，記者實際參與綠島業者的浮潛行程。在業者指導下，依序穿上防寒衣、救生衣、膠鞋、佩戴好面鏡，就算不會游泳的遊客，在前五分鐘的教學中，業者都會指導如何用面鏡上的呼吸管在浮潛時呼吸。但不諳水性的遊客，還是不免在海中踩踏、掙扎，而被踩踏的便是腳下的無辜生物。</p>
 
-        <center><img width="60%" src="assets/3.jpg" alt="p 0542"></center>
-        <p class="caption">浮潛業者一手提著游泳圈，一手提著吐司邊。（攝影 / 董容慈）</p>
-
         <p>同時，為了吸引魚群，當地業者通常會帶著吐司下水，一塊一塊分送給遊客餵魚。遊客手持麵包塊，魚群便蜂擁而至，不出三十秒，水中一片混濁，處處飄浮麵包屑。</p>
         <p>中央研究院生物多樣性研究中心研究員陳昭倫表示，潮間帶是很多珊瑚礁生物幼生的孵育場，吐司的影響不一定是最大，但人的踩踏會踩死很多東西。</p>
 
-        <center><img width="60%" src="assets/4.jpg" alt="p 0595"></center>
-        <p class="caption">靠近岸邊的海底沒有一點生機，潮間帶甚至可見海洋動物的屍體。（攝影 / 許家瑜）</p>
+        <center><img width="60%" src="assets/5.jpg" alt="seastar"></center>
+        <p class="caption">民宿業者拿出藏在岸邊的海星吸引遊客關注。（攝影 / 董容慈）</p>
 
         <p>小琉球除了浮潛，潮間帶導覽也是一大賣點。根據遊客提供的照片，幾年前甚至有潮間帶導覽業者，將生物藏匿在石洞中，在導覽時取出，一一讓遊客觀賞、觸摸。</p>
 
-        <center><img width="60%" src="assets/5.png" alt="seastar"></center>
-        <p class="caption">民宿業者拿出藏在岸邊的海星吸引遊客關注。（攝影 / 董容慈）</p>
         
     </div>
-    <div class="slides">
+    <div class="slides" style="background-color:#F7E6C8;">
         <div id="carouselVideoIndicators" class="carousel slide" data-ride="carousel" data-interval="false">
             <ol class="carousel-indicators">
                 <li data-target="#carouselVideoIndicators" data-slide-to="0" class="active"></li>
@@ -349,7 +365,7 @@ p {
                 <a data-toggle="modal" href="#modal2"><img src="assets/button2.png" width="25%"></a>
             </div>
         </div>
-        <p id="trigger2">當地環保旅店業者、長期從事潮間帶觀察的蔡正男表示，「十年前帶客人到潮間帶，保證看得到海星、看得到海兔，但是觀光發展不到五年，我們找不到海兔了。所以你就知道觀光發展的踩踏壓力其實是大過於漁業行為。」</p>
+        <p id="trigger2">當地環保旅店業者、長期從事潮間帶觀察的<strong><u>蔡正男</u></strong>表示，「十年前帶客人到潮間帶，保證看得到海星、看得到海兔，但是觀光發展不到五年，我們找不到海兔了。所以你就知道觀光發展的踩踏壓力其實是大過於漁業行為。」</p>
         <p>陳昭倫說：「珊瑚礁在整個海洋中，是生態多樣性最高的生態系之一。」而珊瑚礁生態牽涉的是整個海洋生物鏈。以珊瑚礁來說，整個結構是以珊瑚為主，功能群則有行光合作用的珊瑚造礁、食藻類的海膽及魚，維持珊瑚健康、大型掠食者與草食性生物平衡。同時珊瑚礁生態系更是海洋環境受到衝擊後，幫助系統恢復的重要功臣。</p>
     </div>
 
@@ -364,7 +380,7 @@ p {
                 <a data-toggle="modal" href="#modal3"><img src="assets/button3.png" width="25%"></a>
             </div>
         </div>
-        <p id="trigger3">海鮮文化也是生態的殺手之一。常駐綠島從事護蟹運動的潛水教練侯政廉說：「有聽過民宿老闆說：『你要在綠島吃到最新鮮的海膽只有我們家。』聽到這個我們很痛心。」</p>
+        <p id="trigger3">海鮮文化也是生態的殺手之一。常駐綠島從事護蟹運動的潛水教練<strong><u>侯政廉</u></strong>說：「有聽過民宿老闆說：『你要在綠島吃到最新鮮的海膽只有我們家。』聽到這個我們很痛心。」</p>
         <p>觀光客到了海島地區喜歡食用珊瑚礁魚類也形成需求，陳昭倫語帶不可置信表示，條紋豆娘魚、七線豆娘魚這種小型雀鯛科都有人在吃，海產店街更是將鸚哥魚發展出好幾種不同的烹飪方法。</p>
         <center><img width="60%" src="assets/7.jpg"></center>
         <p></p>
@@ -374,8 +390,8 @@ p {
                 <a data-toggle="modal" href="#modal1"><img src="assets/button1.png" width="25%"></a>
             </div>
         </div>
-        <p id="trigger1">長年居住在綠島的老船長蔡居福也提到，「五十歲的時候，心裡自己就說不需要就不要再抓了」，他轉而投入潛水產業，讓更多人認識海洋。</p>
-        <p>「八月十五彼一工，船欲離開琉球港。只有船煙白茫茫，全無朋友來相送。滿腹憂悶心沉重，看無愛人伊一人。堅心忍著純情夢，帶著寂寞來出航。」</p>
+        <p id="trigger1">長年居住在綠島的老船長<strong><u>蔡居福</u></strong>也提到，「五十歲的時候，心裡自己就說不需要就不要再抓了」，他轉而投入潛水產業，讓更多人認識海洋。</p>
+        <blockquote>「八月十五彼一工，船欲離開琉球港。只有船煙白茫茫，全無朋友來相送。滿腹憂悶心沉重，看無愛人伊一人。堅心忍著純情夢，帶著寂寞來出航。」</blockquote>
         <p>歌手陳一郎唱著「行船人的愛」，當時候的小琉球居民登上遠洋漁船，背後暗示的其實是近海漁業的凋零，而碼頭邊販售色彩鮮豔的珊瑚礁魚類，則是近海漁業凋零的悲傷結果。</p>
     </div>
 
@@ -391,9 +407,9 @@ p {
                 <a data-toggle="modal" href="#modal4"><img src="assets/button4.png" width="25%"></a>
             </div>
         </div>
-        <p id="trigger4">除了觀光，長期觀察海溫的潛水業者俞明宏表示，台灣離島生態，也受到氣候變遷的威脅。</p>
+        <p id="trigger4">除了觀光，長期觀察海溫的潛水業者<strong><u>俞明宏</u></strong>表示，台灣離島生態，也受到氣候變遷的威脅。</p>
         <p>共生藻離開珊瑚共生膜，原本豔麗的珊瑚礁轉白，白色的鹿角珊瑚在藍藍的海中像極了骸骨。「十年前這個時候，水溫差不多要降到26度，現在還在28.29度」，俞明宏指出和過去相比，今年八月綠島的水溫還是太高了。水溫太高是珊瑚的逆境因子，白化的珊瑚此時尚未死亡，但兩三星期內水溫不降下來，便難逃一死。</p>
-        <p>除了氣候變遷，陳昭倫指出珊瑚礁也同時面對過漁、棲地破壞及污染的問題，四者可以說是海洋的四大危機。</p>
+        <blockquote>除了氣候變遷，陳昭倫指出珊瑚礁也同時面對過漁、棲地破壞及污染的問題，四者可以說是海洋的四大危機。</blockquote>
     </div>
 
     <div class="slides">
@@ -446,7 +462,7 @@ p {
         <h1>愈趨嚴苛的環境 生態韌性受考驗</h1>
         <p>2016年莫蘭蒂颱風狹帶超強的風雨襲擊臺灣，小琉球東南面的大福漁港正面迎擊強颱莫蘭蒂，17米的浪高重創深度15米內的海底。兩年過去了，重回當地，映入眼簾的依然是月球表面般的景象，僅有零星小株的枝狀珊瑚。陳昭倫說:「小琉球很多地方被剷平並沒有恢復，颱風作用性很大，基本上珊瑚礁體結構改變，要再長回來其實是相當困難的事。」他說可能得經過十年，才有新的珊瑚苗進來，而能不能黏合和沈積形成珊瑚礁，又是另一回事了。</p>
         <center><img width="60%" src="assets/9.jpg" alt="p332"></center>
-        <p class="caption">小琉球大福漁港水深約十米處。（攝影 / 許家瑜）</p>
+        <p class="caption">小琉球大福漁港水深約十米處，珊瑚覆蓋率不佳。（攝影 / 許家瑜）</p>
         <p>生態是時時變動的，有高峰就有低谷，陳昭倫解釋，生態的回覆能力稱作「韌性」，更詳細一點地講，生態系受到外力衝擊後，利用本身的條件吸收、轉化，回到衝擊之前的狀態。因此重要的是從低谷是否能夠爬升回良好、適合孕育生物的場域。</p>
     </div>
 
@@ -492,7 +508,7 @@ p {
                 x.style.overflow = "visible";
             }
             else if(titleV.offsetTop===0){
-                x.style.overflow = "hidden";
+               // x.style.overflow = "hidden";
             }
         };
         document.getElementById("title").addEventListener("click", function(){
