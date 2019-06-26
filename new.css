@@ -1,4 +1,5 @@
 /*global setting*/
+@import url(//fonts.googleapis.com/earlyaccess/notosanstc.css);
 
 html {
     scroll-behavior:smooth;
@@ -8,6 +9,7 @@ body {
     background-color:#35495f;
     padding-left: 0px;
     padding-right: 0px;
+    font-family: 'Noto Sans TC', '微軟正黑體', sans-serif;
 }
 
 p {
@@ -19,7 +21,6 @@ p {
 }
 
 blockquote { 
-    text-align:center;
     display: block;
     margin-top: 1em;
     margin-bottom: 1em;
@@ -40,6 +41,7 @@ footer p{
     font-size:90%;
     text-align:center;
     margin:0;
+    color:#9d9d9d;
 }
 .corner{
     position: absolute;
@@ -57,7 +59,8 @@ background-color: #235078;
     border-width:thin;
 }
 .modal p{
-    color:black;
+    margin-top:1rem;
+    color:dimgray;
 }
 .modal-header{
     padding:0;
@@ -76,7 +79,7 @@ background-color: #235078;
     padding:0 5em;
 }
 .modal-body p{
-    padding:.5em 2.8em;
+    padding:.5em 20%;
 }
 .carousel-item{
     line-height:0;
@@ -100,6 +103,7 @@ background-color: #235078;
 }
 .author{
     margin:15px;
+    color:#9d9d9d !important;
 }
 h1 {
     color: white;
@@ -121,4 +125,7 @@ h1 {
     border-top-right-radius: 0.3rem;
     height:760px;
 }
-
+.modal-footer div{
+    width:100%;
+    text-align:center;
+}
