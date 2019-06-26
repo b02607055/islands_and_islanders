@@ -502,6 +502,33 @@
             offset:160,
             easing:"ease-in-sine",
         });
+        function preloader() {
+        	if (document.images) {
+		        var img1 = new Image();
+        		var img2 = new Image();
+        		var img3 = new Image();
+        		var img4 = new Image();
+
+        		img1.src = "assets/head1.jpg";
+        		img2.src = "assets/head2.jpg";
+        		img3.src = "assets/head3.jpg";
+        		img4.src = "assets/head4.jpg";
+	        }
+        }
+        function addLoadEvent(func) {
+            var oldonload = window.onload;
+            if (typeof window.onload != 'function') {
+                window.onload = func;
+            } else {
+                window.onload = function() {
+                    if (oldonload) {
+                        oldonload();
+                    }
+                    func();
+                }
+            }
+        }
+        addLoadEvent(preloader);
         $( document ).ready(function() {
             $(this).scrollTop(0);
             current = 0;
@@ -547,7 +574,6 @@
         document.getElementById("btnP").addEventListener("click", prevVideo);
 
         function play(current){
-            console.log('play');
             if(current === 0)
                 video1.play();
             else if(current === 1)
@@ -556,7 +582,6 @@
                 video3.play();
         }
         function stop(current){
-            console.log('stop');
             if(current === 0)
                 secure_pause(video1);
             else if(current === 1)
@@ -569,7 +594,6 @@
             if(playPromise !== undefined){
                 playPromise.then( _ =>{
                     video.pause();
-                    console.log('pause')
                 })
             }
         }
@@ -587,7 +611,7 @@
                 video3.muted=true;
             }
         }
-        //$(window).on('DOMContentLoaded load resize scroll', checkV); 
+        //$(window).on('DOMContentLoaded load resize scroll', checkV);
     </script>
 </body>
 
