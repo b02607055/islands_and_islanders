@@ -177,7 +177,7 @@
 <!--- MAIN--->
 
     <header style="position:relative">
-        <video id="video1" width="100%" preload="auto" muted autoplay>
+        <video id="video1" width="100%" preload="auto" muted autoplay poster="assets/video/poster.jpg">
             <source src="assets/video/title.mp4" />
         </video>
         <img width="75%" src="assets/tinytitle.png" style="position:absolute;top:50%;left:50%;transform:translate(-50%, -50%);">
@@ -539,7 +539,7 @@
             var x = document.getElementsByTagName("BODY")[0];
             if (titleV.currentTime>2){
                 titleT.style.display="block";
-                x.style.overflow = "visible";
+                //x.style.overflow = "visible";
             }
             /*
             else if(titleV.offsetTop===0){
