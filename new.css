@@ -90,13 +90,13 @@ background-color: #235078;
     display: inline-block;
 }
 .carousel-btn1{
-    background-color:rgb(4,4,4,0.75);
+    background-color:rgba(4,4,4,0.75);
     width:5%;
     margin:14.375vw 7.5%;
     border-radius:50%;
 }
 .carousel-btn2{
-    background-color:rgb(4,4,4,0.75);
+    background-color:rgba(4,4,4,0.75);
     width:5%;
     margin:18.7vw 7.5%;
     border-radius:50%;
