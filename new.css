@@ -3,6 +3,7 @@
 
 html {
     scroll-behavior:smooth;
+    scrollbar-width: none;
 }
 
 body {
@@ -10,7 +11,6 @@ body {
     padding-left: 0px;
     padding-right: 0px;
     font-family: 'Noto Sans TC', '微軟正黑體', sans-serif;
-    scrollbar-width: none;
 }
 
 p {
@@ -58,6 +58,9 @@ background-color: #235078;
     text-align:center;
     border-top:solid white;
     border-width:thin;
+}
+.modal{
+    scrollbar-width: none;
 }
 .modal p{
     margin-top:1rem;
@@ -140,5 +143,3 @@ h1 {
 ::-webkit-scrollbar {
     display: none;
 }
-
-
