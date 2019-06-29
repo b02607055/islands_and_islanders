@@ -176,12 +176,12 @@
 
 <!--- MAIN--->
 
-    <header style="position:relative;height:100vh;">
+    <header style="position:relative;height:100vh;overflow:hidden">
         <video id="video1" width="100%" preload="auto" muted autoplay poster="assets/video/poster.jpg" style="position:absolute;top:50%;transform:translate(0, -50%);">
             <source src="assets/video/title.mp4" />
         </video>
         <img width="75%" src="assets/tinytitle.png" style="position:absolute;top:50%;left:50%;transform:translate(-50%, -50%);">
-        <button id="title" style="position:absolute;bottom:4.5em;left:50%;transform:translate(-50%,0);display:none" class="btn btn-outline-light btn-lg">
+        <button id="title" style="position:absolute;top:calc(50vh + 16vw);left:50%;transform:translate(-50%,0);display:none" class="btn btn-outline-light btn-lg">
             往下滑或點擊以繼續瀏覽內容
         </button>
     </header>
