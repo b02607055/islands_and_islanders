@@ -10,6 +10,7 @@ body {
     padding-left: 0px;
     padding-right: 0px;
     font-family: 'Noto Sans TC', '微軟正黑體', sans-serif;
+    scrollbar-width: none;
 }
 
 p {
